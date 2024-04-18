@@ -7,13 +7,36 @@
     <title>Biglietto del treno</title>
 </head>
 <body>
-    
+    <h2>IL PREZZO DEL TUO BIGLIETTO</h2>
+    <div class="style-box">
+        <label for="user-name">Nome e Cognome</label>
+        <input type="text" id="user-name">
+        <label for="user-km">Km da percorrere</label>
+        <input type="text" id="user-km">
+        <label for="user-age">Età</label>
+        <input type="text" id="user-age">
+        <span id="price">Prezzo</span>
+        <button id="send-btn">Conferma</button>
+    </div>
 
-
-
-
-
-
+    <div class="card">
+        <div>
+            <h3>Nome e Cognome</h3>
+            <span id="card-name" class="text"></span>
+        </div>
+        <div>
+            <h3>Costo</h3>
+            <span id="price" class="text"></span>
+        </div>
+        <div>
+            <h3>Sconto</h3>
+            <span id="discount-card" class="text"></span>
+        </div>
+        <div>
+            <h3>Numero treno</h3>
+            <span id="n-card" class="text"></span>
+        </div>
+    </div>
 
 
     <script src="./main.js"></script>
